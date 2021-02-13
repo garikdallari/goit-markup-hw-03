@@ -4,7 +4,6 @@
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  outline: 1px solid red;
 }
 
 /* header */
@@ -116,6 +115,7 @@
   margin-bottom: 94px;
 }
 .features .features-title {
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.2;
@@ -130,7 +130,19 @@
 
 /* works */
 
+.work-list {
+  display: flex;
+}
+.work-list li:not(:last-child) {
+  margin-right: 30px;
+}
+
+.work-list li {
+  margin-bottom: 188px;
+}
+
 .work .work-title {
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
@@ -139,7 +151,24 @@
 }
 
 /* team */
+.team-list {
+  display: flex;
+  text-align: center;
+}
+.team-list .item {
+  margin-top: 50px;
+}
+.team-list .team-name {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.team-list .team-text {
+  margin-bottom: 124px;
+}
 
+.team-list .item + .item {
+  margin-left: 30px;
+}
 .team .team-title {
   font-weight: 700;
   font-size: 36px;
@@ -165,7 +194,12 @@
 .footer {
   background-color: var(--background-color);
 }
+.footer-list li:not(:last-child) {
+  margin-bottom: 9px;
+}
 .footer .footer-logo {
+  display: block;
+  margin-bottom: 20px;
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
