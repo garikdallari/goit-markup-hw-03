@@ -105,6 +105,16 @@
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.features-list {
+  display: flex;
+}
+.features-list li:not(:last-child) {
+  margin-right: 30px;
+}
+.features-list li {
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
 .features .features-title {
   font-weight: 700;
   font-size: 14px;
