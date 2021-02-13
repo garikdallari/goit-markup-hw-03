@@ -1,4 +1,31 @@
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 1px solid red;
+}
+
 /* header */
+.header-nav,
+.nav-list,
+.nav-contacts {
+  display: flex;
+}
+.header-nav {
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.header-nav li:not(:last-child) {
+  margin-right: 50px;
+}
+.nav-list {
+  margin-right: 331px;
+  margin-left: 93px;
+}
 
 .header .header-link {
   font-family: Raleway, sans-serif;
@@ -34,7 +61,9 @@
 }
 
 /* hero */
-
+.hero {
+  width: 1600px;
+}
 .hero .hero-title {
   font-weight: 900;
   font-size: 44px;
