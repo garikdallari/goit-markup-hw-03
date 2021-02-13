@@ -62,9 +62,11 @@
 
 /* hero */
 .hero {
-  width: 1600px;
+  text-align: center;
 }
+
 .hero .hero-title {
+  margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
@@ -74,6 +76,11 @@
   background-color: var(--background-color);
 }
 .hero .hero-button {
+  display: inline-block;
+  padding: 10px 32px;
+  min-width: 200px;
+  border-radius: 4px;
+
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
