@@ -1,0 +1,108 @@
+/* header */
+
+.header .header-link {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--black-primary);
+}
+.header .web {
+  color: var(--blue-accent);
+}
+.header .header-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  color: var(--black-secondary);
+}
+.header .header-list:hover,
+.header .header-list:focus,
+.header .header-contact:hover,
+.header .header-contact:focus {
+  color: var(--blue-accent);
+}
+
+.header .header-list.current {
+  color: var(--blue-accent);
+}
+.header .header-contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  color: var(--grey-cnt);
+}
+
+/* hero */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.hero .hero-button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  border: none;
+  background-color: var(--blue-accent);
+  color: var(--black-secondary);
+}
+.hero .hero-button:hover,
+.hero .hero-buton:focus {
+  color: var(--white-primary);
+}
+.hero .hero-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: var(--black-secondary);
+}
+.hero .hero-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+  color: var(--grey-cnt);
+}
+/* footer */
+
+.footer {
+  background-color: var(--background-color);
+}
+.footer .footer-logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--white-primary);
+}
+.footer .web {
+  color: var(--blue-accent);
+}
+.footer .footer-adr {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--white-primary);
+}
+.footer .footer-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--white-secondary-op);
+}
+.footer .footer-link:hover,
+.footer .footer-link:focus {
+  color: var(--blue-accent);
+}
