@@ -140,6 +140,10 @@
 .footer {
   background-color: var(--background-color);
 }
+.footer-wrapper {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 .footer-list li:not(:last-child) {
   margin-bottom: 9px;
 }

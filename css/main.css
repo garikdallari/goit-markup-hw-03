@@ -62,6 +62,7 @@
 /* hero */
 .hero {
   text-align: center;
+  height: 600px;
 }
 
 .hero .hero-title {
@@ -151,6 +152,9 @@
 }
 
 /* team */
+.team {
+  background-color: var(--btn-bg);
+}
 .team-list {
   display: flex;
   text-align: center;
@@ -194,6 +198,10 @@
 
 .footer {
   background-color: var(--background-color);
+}
+.footer-wrapper {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer-list li:not(:last-child) {
   margin-bottom: 9px;
