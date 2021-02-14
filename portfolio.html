@@ -16,91 +16,120 @@
 <body>
     <!-- Шапка -->
 <header class="header">
-    <nav>
-        <a href="./index.html" class="header-link"><span class="web">Web</span>Studio</a>
-        <ul>
-            <li><a href="./index.html" class="header-list">Студия</a></li>
-            <li><a href="./portfolio.html" class="header-list current">Портфолио</a></li>
-            <li><a href="" class="header-list">Контакты</a></li>
-        </ul>
-    </nav>
-    <ul>
-        <li><a href="mailto:info@devstudio.com" class="header-contact">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111" class="header-contact">+38 096 111 11 11</a></li>
-    </ul>
+    <div class="container">
+        <nav class="header-nav">
+            <a href="./index.html" class="header-link"><span class="web">Web</span>Studio</a>
+            <ul class="nav-list">
+                <li><a href="./index.html" class="header-list">Студия</a></li>
+                <li><a href="./portfolio.html" class="header-list current">Портфолио</a></li>
+                <li><a href="" class="header-list">Контакты</a></li>
+            </ul>
+            <ul class="nav-contacts">
+                <li><a href="mailto:info@devstudio.com" class="header-contact">info@devstudio.com</a></li>
+                <li><a href="tel:+380961111111" class="header-contact">+38 096 111 11 11</a></li>
+            </ul>
+        </nav>
+    </div>
 </header>
     <!-- hero -->
     <main class="hero">
+        <div class="container">
         <h1 class="visually-hidden">Наши проекты</h1>
+        <div class="list">
+
    
-            <ul>
+            <ul class="hero-list">
             <li><button class="hero-button" type="button">Все</button></li>
             <li><button class="hero-button" type="button">Веб-сайты</button></li>
             <li><button class="hero-button" type="button">Приложения</button></li>
             <li><button class="hero-button" type="button">Дизайн</button></li>
             <li><button class="hero-button" type="button">Маркетинг</button></li>
         </ul>
-        <ul>
-            <li>
+        </div>
+        <div class="cards">
+        <ul class="hero-items">
+            <li class="item">
                 <img src="./images/img9.jpg" alt="img" width="370">
+                <div class="card-content">
                 <h2 class="hero-title">Технокряк</h2>
                 <p class="hero-text">Веб-сайт</p>
+                </div>
             </li>
-            <li>
-                <img src="./images/img1.jpg" alt="img" width="370"> 
+            <li class="item">
+                <img src="./images/img1.jpg" alt="img" width="370">
+                <div class="card-content">
                 <h2 class="hero-title">Постер New Orlean vs Golden Star</h2>
                 <p class="hero-text">Дизайн</p>
+                </div>
             </li>
-            <li>
+            <li class="item">
                 <img src="./images/img2.jpg" alt="img" width="370">
+                <div class="card-content">
                 <h2 class="hero-title">Ресторан Seafood</h2>
                 <p class="hero-text">Приложение</p>
+                </div>
             </li>
-            <li>
+            <li class="item">
                 <img src="./images/img3.jpg" alt="img" width="370">
+                <div class="card-content">
                 <h2 class="hero-title">Проект Prime</h2>
                 <p class="hero-text">Маркетинг</p>
+                </div>
             </li>
-            <li>
+            <li class="item">
                 <img src="./images/img4.jpg" alt="img" width="370">
+                <div class="card-content">
                 <h2 class="hero-title">Проект Boxes</h2>
                 <p class="hero-text">Приложение</p>
+                </div>
             </li>
-            <li>
+            <li class="item">
                 <img src="./images/img5.jpg" alt="img" width="370">
+                <div class="card-content">
                 <h2 class="hero-title">Inspiration has no Borders</h2>
                 <p class="hero-text">Веб-сайт</p>
+                </div>
             </li>
-            <li>
+            <li class="item">
                 <img src="./images/img6.jpg" alt="img" width="370">
+                <div class="card-content">
                 <h2 class="hero-title">Издание Limited Edition</h2>
                 <p class="hero-text">Дизайн</p>
+                </div>
             </li>
-            <li>
+            <li class="item">
                 <img src="./images/img7.jpg" alt="img" width="370">
+                <div class="card-content">
                 <h2 class="hero-title">Проект LAB</h2>
                 <p class="hero-text">Маркетинг</p>
+                </div>
             </li>
-            <li>
+            <li class="item">
                 <img src="./images/img8.jpg" alt="img" width="370">
+                <div class="card-content">
                 <h2 class="hero-title">Growing Business</h2>
                 <p class="hero-text">Приложение</p>
+                </div>
             </li>
 
         </ul>
+        </div>
+        </div>
 
     </main>
     <!-- Футер -->
-    <footer class="footer">
+<footer class="footer">
+    <div class="container">
         <a href="./index.html" class="footer-logo"><span class="web">Web</span>Studio</a>
         <address>
-            <ul>
+            <ul class="footer-list">
                 <li class="footer-adr">г. Киев, пр-т Леси Украинки, 26</li>
                 <li><a class="footer-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                 <li><a class="footer-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
         </address>
-    </footer>
+    </div>
+</footer>
 
     
 </body>

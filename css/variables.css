@@ -5,6 +5,7 @@
 /* Grey #757575 */
 /* White secondary #255,255,255,0.6 */
 /* bg #2F303A */
+/* filter bg #f5f4fa */
 
 :root {
   --blue-accent: #2196f3;
@@ -14,6 +15,7 @@
   --grey-cnt: #757575;
   --white-secondary-op: rgba(255, 255, 255, 0.6);
   --background-color: #2f303a;
+  --btn-bg: #f5f4fa;
 }
 ul {
   list-style: none;

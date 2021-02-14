@@ -1,15 +1,31 @@
-:root {
-  --blue-accent: #2196f3;
-  --black-primary: #000000;
-  --black-secondary: #212121;
-  --white-primary: #ffffff;
-  --grey-cnt: #757575;
-  --white-secondary-op: rgba(255, 255, 255, 0.6);
-  --background-color: #2f303a;
-  --btn-bg: #f5f4fa;
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* header */
+
+.header-nav,
+.nav-list,
+.nav-contacts {
+  display: flex;
+}
+.header-nav {
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.header-nav li:not(:last-child) {
+  margin-right: 50px;
+}
+.nav-list {
+  margin-right: 331px;
+  margin-left: 93px;
+}
 
 .header .header-link {
   font-family: Raleway, sans-serif;
@@ -57,8 +73,23 @@
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
+.hero-list,
+.hero-items {
+  display: flex;
+}
+.hero-list {
+  justify-content: center;
+}
+.hero-list li + li {
+  margin-left: 8px;
+}
+.hero-list li {
+  padding-top: 94px;
+  padding-bottom: 50px;
+}
 .hero .hero-button {
+  padding: 6px 22px;
+  border-radius: 4px;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -73,12 +104,32 @@
   background-color: var(--blue-accent);
   color: var(--white-primary);
 }
+.hero-items {
+  flex-wrap: wrap;
+}
+.hero-items .item {
+  flex-basis: calc(100% / 3 -30px);
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.hero-items {
+  margin-left: -30px;
+  margin-top: -30px;
+}
+.card-content {
+  padding: 20px 24px;
+}
 .hero .hero-title {
+  margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   color: var(--black-secondary);
 }
+.hero-items:nth-last-child(-n + 3) {
+  padding-bottom: 94px;
+}
+
 .hero .hero-text {
   font-weight: 400;
   font-size: 16px;
@@ -86,11 +137,15 @@
   color: var(--grey-cnt);
 }
 /* footer */
-
 .footer {
   background-color: var(--background-color);
 }
+.footer-list li:not(:last-child) {
+  margin-bottom: 9px;
+}
 .footer .footer-logo {
+  display: block;
+  margin-bottom: 20px;
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
