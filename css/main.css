@@ -111,8 +111,8 @@
   margin-right: 30px;
 }
 .features-list li {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .features .features-title {
   margin-bottom: 10px;
@@ -138,7 +138,7 @@
 }
 
 .work-list li {
-  margin-bottom: 188px;
+  padding-bottom: 94px;
 }
 
 .work .work-title {
@@ -163,13 +163,14 @@
   margin-bottom: 10px;
 }
 .team-list .team-text {
-  margin-bottom: 124px;
+  padding-bottom: 124px;
 }
 
 .team-list .item + .item {
   margin-left: 30px;
 }
 .team .team-title {
+  padding-top: 94px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;

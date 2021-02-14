@@ -1,3 +1,14 @@
+:root {
+  --blue-accent: #2196f3;
+  --black-primary: #000000;
+  --black-secondary: #212121;
+  --white-primary: #ffffff;
+  --grey-cnt: #757575;
+  --white-secondary-op: rgba(255, 255, 255, 0.6);
+  --background-color: #2f303a;
+  --btn-bg: #f5f4fa;
+}
+
 /* header */
 
 .header .header-link {
@@ -54,11 +65,12 @@
   line-height: 1.6;
   text-align: center;
   border: none;
-  background-color: var(--blue-accent);
+  background-color: var(--btn-bg);
   color: var(--black-secondary);
 }
 .hero .hero-button:hover,
 .hero .hero-buton:focus {
+  background-color: var(--blue-accent);
   color: var(--white-primary);
 }
 .hero .hero-title {
