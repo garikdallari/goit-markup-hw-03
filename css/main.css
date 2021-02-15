@@ -64,6 +64,10 @@
   text-align: center;
   height: 600px;
 }
+.hero-wrapper {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
 
 .hero .hero-title {
   margin-bottom: 30px;
